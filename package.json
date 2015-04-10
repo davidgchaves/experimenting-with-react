@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildfc": "browserify -t reactify first-component/client/app.js > first-component/build/app.js"
+    "buildfc": "browserify -t reactify first-component/client/app.js > first-component/build/app.js",
+    "buildsc": "browserify -t reactify second-component/client/app.js > second-component/build/app.js"
   },
   "author": "David G. Chaves <davidgchaves@gmail.com>",
   "devDependencies": {
@@ -15,6 +16,8 @@
     "reactify": "^1.1.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.4",
+    "jquery": "^2.1.3",
     "react": "^0.13.1"
   }
 }
