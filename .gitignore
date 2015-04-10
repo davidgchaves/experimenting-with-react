@@ -32,3 +32,6 @@ client.js
 client.js.map
 client-test.js
 
+# Browserify output folder
+build/
+
