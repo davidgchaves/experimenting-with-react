@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildfc": "browserify -t reactify first-component/client/app.js > first-component/build/app.js"
   },
   "author": "David G. Chaves <davidgchaves@gmail.com>",
   "devDependencies": {
